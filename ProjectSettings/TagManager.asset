@@ -6,6 +6,7 @@ TagManager:
   tags:
   - baby
   - floor
+  - ground
   layers:
   - Default
   - TransparentFX

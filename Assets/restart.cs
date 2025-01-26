@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class start : MonoBehaviour
+public class restart : MonoBehaviour
 {
     public void PlayGame()
     {
@@ -14,5 +14,5 @@ public class start : MonoBehaviour
     {
         Application.Quit();
     }
-    
+
 }

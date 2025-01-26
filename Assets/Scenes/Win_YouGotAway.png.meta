@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 7748bc2c671a44875b16e970bd96e72e
+guid: 7ae4f39015c85c84e80bdb778de015a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8479206209889877471
-    second: Game Icon_0
+      213: 2544914066838629317
+    second: Win_YouGotAway_0
+  - first:
+      213: -6542936814511633161
+    second: Win_YouGotAway_1
+  - first:
+      213: 5828916665189893234
+    second: Win_YouGotAway_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,33 +103,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -139,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Game Icon_0
+      name: Win_YouGotAway_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1032
-        height: 1034
+        y: 18
+        width: 489
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1224a3a70eec35a80800000000000000
-      internalID: -8479206209889877471
+      spriteID: 5cbafc93cd9515320800000000000000
+      internalID: 2544914066838629317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_YouGotAway_1
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1
+        width: 475
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc453712a1d235a0800000000000000
+      internalID: -6542936814511633161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_YouGotAway_2
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 137
+        width: 738
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2748ff5f2d874e050800000000000000
+      internalID: 5828916665189893234
       vertices: []
       indices: 
       edges: []
@@ -173,8 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Game Icon_0: -8479206209889877471
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
