@@ -10,12 +10,7 @@ public class nescript : MonoBehaviour
 
         if (collision.CompareTag("baby"))
         {
-            ;
-        }
-
-        {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
-         
         }
     }
 }
