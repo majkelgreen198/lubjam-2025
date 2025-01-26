@@ -8,7 +8,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     [SerializeField] private Rigidbody2D _aa;
     [SerializeField] private Rigidbody2D _cc;
 
-    [SerializeField] private float _speed = 150;
+    [SerializeField] private float _speed = 150f;
 
 
     [SerializeField] private float _rotationSpeed = 300f;
