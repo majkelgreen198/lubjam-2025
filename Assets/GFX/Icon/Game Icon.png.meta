@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5efce7c0e208f9d49821332b625eaba9
+guid: 7748bc2c671a44875b16e970bd96e72e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7921649188387484213
-    second: Car_0
+      213: -8479206209889877471
+    second: Game Icon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +110,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Car_0
+      name: Game Icon_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 5
-        width: 253
-        height: 102
+        x: 0
+        y: 0
+        width: 1032
+        height: 1034
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bcd07eaa806a01290800000000000000
-      internalID: -7921649188387484213
+      spriteID: 1224a3a70eec35a80800000000000000
+      internalID: -8479206209889877471
       vertices: []
       indices: 
       edges: []
@@ -173,8 +173,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Car_0: -7921649188387484213
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
