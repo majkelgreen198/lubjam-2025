@@ -1,6 +1,7 @@
 using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StrollerMovement : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class StrollerMovement : MonoBehaviour
 
 
     [SerializeField] private float _rotationSpeed = 300f;
+    [SerializeField] private float _maxRotationSpeed = 100f;
+
 
     private float _moveInput;
 
@@ -23,19 +26,22 @@ public class StrollerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
- private void Update()
-
+    private void Update()
     {
         _moveInput = Input.GetAxisRaw("Horizontal");
         
-
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
+
     private void FixedUpdate()
     {
-        //_dd.AddTorque(-_moveInput * _speed * Time.fixedDeltaTime);
-        //_aa.AddTorque( -_moveInput * _speed * Time.fixedDeltaTime);
         _cc.AddTorque(_moveInput * _rotationSpeed * Time.fixedDeltaTime);
-
-
+        if (Mathf.Abs(_cc.angularVelocity) > _maxRotationSpeed)
+        {
+            _cc.angularVelocity = Mathf.Sign(_cc.angularVelocity) * _maxRotationSpeed;
+        }
     }
 }
