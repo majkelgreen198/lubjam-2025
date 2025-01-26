@@ -8,9 +8,9 @@ public class nescript : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if (collision.CompareTag("player"))
+        if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
