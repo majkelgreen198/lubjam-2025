@@ -1,16 +1,32 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class lose: MonoBehaviour
+
+public class lose : MonoBehaviour
 {
+    [SerializeField]
+    private float delayBeforeLosingScene = 5f; 
+    
+
+
+    [SerializeField]
+    private string sceneNameToLoad;
+
+    private float timeElapsed;
+
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("oncollisionenter " + collision.gameObject.name);
-        if (collision.gameObject.CompareTag("baby"))
+        bool didCollideWithBaby = collision.gameObject.CompareTag("baby");
+        if (didCollideWithBaby)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+            Invoke("showLoseScreen", delayBeforeLosingScene);
         }
+    }
+
+    private void showLoseScreen()
+    {
+        SceneManager.LoadScene(sceneNameToLoad);
     }
 }

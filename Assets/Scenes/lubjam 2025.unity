@@ -136,6 +136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1 &347908723 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7412054305994708368, guid: 64af89e6258eb4a15ad887095229da37, type: 3}
@@ -185,6 +187,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1 &450496090 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4375517540953331472, guid: 0b7436f916ddd48898056ec0f38d6083, type: 3}
@@ -202,6 +206,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1001 &459803438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1677,6 +1683,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1 &787008509 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 631152435087863, guid: 0b7436f916ddd48898056ec0f38d6083, type: 3}
@@ -1694,6 +1702,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1 &821812173 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5851859766322535808, guid: 0b7436f916ddd48898056ec0f38d6083, type: 3}
@@ -1711,6 +1721,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1 &896314967 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3911886540530485620, guid: 0b7436f916ddd48898056ec0f38d6083, type: 3}
@@ -1728,6 +1740,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1 &942947832 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5875783956355595993, guid: 0b7436f916ddd48898056ec0f38d6083, type: 3}
@@ -1745,6 +1759,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1001 &992213199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1819,6 +1835,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1001 &1209880416
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2122,6 +2140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1 &1371619516 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3189780322461326096, guid: 0b7436f916ddd48898056ec0f38d6083, type: 3}
@@ -2139,6 +2159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1 &1399685310 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3429711297761446349, guid: 0b7436f916ddd48898056ec0f38d6083, type: 3}
@@ -2156,6 +2178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1 &1672889731 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7193576016279939175, guid: 0b7436f916ddd48898056ec0f38d6083, type: 3}
@@ -2173,6 +2197,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1 &1846957488 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6848490579775148640, guid: 0b7436f916ddd48898056ec0f38d6083, type: 3}
@@ -2190,6 +2216,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1 &1862882337 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4985391283230144741, guid: 44ba324d8563d4b879321b69bdbde69f, type: 3}
@@ -2211,7 +2239,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.051478148, y: 0.14043495}
+  m_ConnectedAnchor: {x: 0.16051051, y: 0.113812365}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -2238,6 +2266,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1 &1996763400 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2340676762781120800, guid: 0b7436f916ddd48898056ec0f38d6083, type: 3}
@@ -2255,6 +2285,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60fc070f91f761419225f2df3773fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLosingScene: 3
+  sceneNameToLoad: lose
 --- !u!1001 &991295082388112504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2277,11 +2309,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1389744311918406915, guid: 44ba324d8563d4b879321b69bdbde69f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.51
+      value: 4.654
       objectReference: {fileID: 0}
     - target: {fileID: 1389744311918406915, guid: 44ba324d8563d4b879321b69bdbde69f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.21
+      value: 0.173
       objectReference: {fileID: 0}
     - target: {fileID: 1389744311918406915, guid: 44ba324d8563d4b879321b69bdbde69f, type: 3}
       propertyPath: m_LocalPosition.z
